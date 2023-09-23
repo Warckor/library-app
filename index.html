@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
   <title>Library-App</title>
 </head>
 
@@ -16,13 +18,13 @@
     </div>
   </div>
   <div class="content">
-    <button class="add-new">Add+</button>
+    <button class="add-new-book">Add+</button>
     <ul class="books">
 
     </ul>
   </div>
   <div class="modal">
-    <dialog class="addDialog">
+    <dialog class="dialog-box">
       <form>
         <p>
         <div class="form-input">
@@ -38,11 +40,12 @@
           <input type="number" name="pages" id="pages">
         </div>
         <div class="form-input">
-          <label>Read</label>
+          <label for="read">Read</label>
           <input type="checkbox" name="read" id="read"></p>
         </div>
         </p>
         <button class="add">Add</button>
+        <button class="cancel">Cancel</button>
       </form>
     </dialog>
   </div>
