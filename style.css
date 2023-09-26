@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  height: 100%;
+
+  --bg-body-color: #d6d3d1;
+  --bg-btn-color: #f7fee7;
+
+}
+
+body {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #d6d3d1;
+}
+
+.icon-tabler {
+  width: 24px;
+  height: 24px;
+  stroke: black;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: "round";
+  stroke-linejoin: "round";
+}
+
+.icon-tabler:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.icon-tabler:active {
+  transform: scale(1);
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background: linear-gradient(to right, #99f2c8, #1f4037);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.616);
+}
+
+.title {
+  font-size: 3rem;
+  color: #f7fee7;
+  text-shadow: -0.01em -0.01em 0.01em #000;
+}
+
+.routes {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 3em;
+  margin-right: 2em;
+}
+
+.routes a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #0a0a0a;
+  background: #f7fee7;
+  border: 1px solid #f7fee7;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.616);
+}
+
+.routes a:hover {
+  transform: scale(1.1);
+}
+
+.routes a:active {
+  transform: scale(1);  
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 2;
+  justify-content: flex-start;
+  align-items: start;
+  margin: 1em 2em;
+}
+
+.add-new-book {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0a0a0a;
+  background: #6ee7b7;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.616);
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 1em 2em;
+}
+
+.footer a {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background: #f7fee7;
+  border: 1px solid #f7fee7;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.616);
+  text-decoration: none;
+  color: black;
+}
